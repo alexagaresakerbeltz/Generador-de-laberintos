@@ -1,0 +1,60 @@
+  body {
+                font-family: arial;
+                margin: 0;
+            }
+            .form-group{
+                display: block;
+                margin-bottom: 1em;
+            }
+            .form-group label{
+                font-weight: bold;
+                display: block;
+                margin-bottom: .5em;
+            }
+            .form-group .form-control{
+                display: block;
+                border: 1px solid black;
+            }
+            .full-width{
+                width: 100%;
+            }
+            .textarea{
+                font-size: 1.5em;
+                min-height: 150px;
+            }
+            .container{
+                display: block;
+                max-width: 750px;
+                margin: 0 auto;
+            }
+            .texto-centrado{
+                text-align: center;
+            }
+            #canvas{
+                border: 1px solid #4287f5;
+                margin: 0 auto;
+                display: block;
+            }
+            .score{
+
+                background-color: #36E513;
+                position: relative;
+                left: 100px;
+
+                text-align: center;
+                width: 200px;
+                border-radius: 10px;
+
+
+            }
+            .posi{
+                background-color: #36E513;
+                position: relative;
+                left:  20px;
+                
+                text-align: center;
+                width: 350px;
+                border-radius: 10px;
+
+
+            }

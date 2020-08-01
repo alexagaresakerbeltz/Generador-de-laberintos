@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Laberinto</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+
+        <h1 class="texto-centrado">Generador de laberintos</h1>
+       
+        <form  class="container">
+
+            <div class="form-group">
+                <label>Laberinto</label>
+                <textarea name="laberinto" class="full-width textarea"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Generar</button>
+            </div>
+        </form>
+
+
+
+
+        <div class=" canvas_div" style="display: none;">
+
+            <div class="score">
+                <h2>Tiempo</h2>
+                <p id="time"><span id="minutes">00</span>:<span id="seconds">00</span></p>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label class="texto-centrado">Laberinto generado</label>
+                <canvas width="750" height="375" id="canvas"></canvas>
+            </div>
+            <div class="form-group texto-centrado">
+                <button class="back">Volver a generar</button>
+
+            </div>
+
+           
+
+        </div>
+
+         
+         <div class="posi" id="posi"  style="display: none;">
+            
+           <h1>RANKING</h1>
+
+    <form id="ale">
+      <input id="item" type="text" placeholder="INTRODUZCA SU NOMBRE">
+    </form>
+
+    <h2>NOMBRES</h2>
+    <ul id="alo"></ul>
+
+        </div>
+
+         <script src="time_manager.js"></script>
+
+    </body>
+</html>
